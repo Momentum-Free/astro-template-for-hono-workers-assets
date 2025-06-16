@@ -1,0 +1,6 @@
+_worker.js
+_redirects
+_headers
+**/node_modules
+**/.DS_Store
+**/.git

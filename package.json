@@ -1,0 +1,20 @@
+{
+	"name": "astro-template-for-hono-workers-assets",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"build": "astro build",
+		"preview": "astro preview",
+		"deploy": "wrangler deploy",
+		"dev": "astro build && wrangler dev",
+		"start": "wrangler dev",
+		"astro": "astro"
+	},
+	"devDependencies": {
+		"wrangler": "^4.18.0",
+		"astro": "^5.8.1"
+	},
+	"dependencies": {
+		"hono": "^4.7.11"
+	}
+}
